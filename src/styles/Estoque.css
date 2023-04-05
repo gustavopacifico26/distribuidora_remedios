@@ -1,0 +1,28 @@
+.barraDePesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+  
+#barraDePesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+}
+  
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+  
+input[type='text'] {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
